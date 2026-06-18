@@ -6,6 +6,10 @@ Dimensão: 2048 x 2048
 ----------------------------------------
 Tempo de execução: 15.1772 segundos
 ----------------------------------------
+
+
+
+
 D&C SIMPLES
 Multiplicacao de matrizes com MPI (divisao e conquista)
 Dimensao: 2048 x 2048
@@ -42,6 +46,12 @@ Processos: 31
 ----------------------------------------
 Tempo de execucao: 5.4015 segundos
 ----------------------------------------
+
+
+
+
+
+
 D&C BALANCEADO
 Multiplicacao de matrizes com MPI (D&C balanceado)
 Dimensao: 2048 x 2048
