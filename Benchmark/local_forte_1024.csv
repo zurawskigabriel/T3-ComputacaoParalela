@@ -1,0 +1,12 @@
+versao,processos,tamanho,tempo_segundos
+sequencial,1,1024,1.0029
+dc_simples,1,1024,0.9048
+dc_simples,3,1024,0.5539
+dc_simples,7,1024,0.4160
+dc_simples,15,1024,0.4426
+dc_simples,31,1024,0.4164
+dc_balanceado,1,1024,0.8893
+dc_balanceado,3,1024,0.5605
+dc_balanceado,7,1024,0.4237
+dc_balanceado,15,1024,0.4877
+dc_balanceado,31,1024,0.4609
