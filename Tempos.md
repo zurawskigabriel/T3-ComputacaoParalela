@@ -1,109 +1,86 @@
-# Resultados de Avaliação de Tempo
-
-### Speed-Up - Escalonamento Forte
-
-Multiplicacao de matrizes com MPI (coordenador/trabalhador)
+D&C SIMPLES
+Multiplicacao de matrizes com MPI (divisao e conquista)
 Dimensao: 2048 x 2048
-Processos: 2
+Processos: 1
 
 ----------------------------------------
-Tempo de execucao: 101.6791 segundos
+Tempo de execucao: 11.8231 segundos
 ----------------------------------------
-Multiplicacao de matrizes com MPI (coordenador/trabalhador)
+Multiplicacao de matrizes com MPI (divisao e conquista)
 Dimensao: 2048 x 2048
 Processos: 3
 
 ----------------------------------------
-Tempo de execucao: 57.9654 segundos
+Tempo de execucao: 8.6633 segundos
 ----------------------------------------
-Multiplicacao de matrizes com MPI (coordenador/trabalhador)
+Multiplicacao de matrizes com MPI (divisao e conquista)
 Dimensao: 2048 x 2048
-Processos: 5
+Processos: 7
 
 ----------------------------------------
-Tempo de execucao: 44.2346 segundos
+Tempo de execucao: 7.3999 segundos
 ----------------------------------------
-Multiplicacao de matrizes com MPI (coordenador/trabalhador)
+Multiplicacao de matrizes com MPI (divisao e conquista)
 Dimensao: 2048 x 2048
-Processos: 9
+Processos: 15
 
 ----------------------------------------
-Tempo de execucao: 20.2024 segundos
+Tempo de execucao: 8.2587 segundos
 ----------------------------------------
-Multiplicacao de matrizes com MPI (coordenador/trabalhador)
+Multiplicacao de matrizes com MPI (divisao e conquista)
 Dimensao: 2048 x 2048
-Processos: 17
+Processos: 31
 
 ----------------------------------------
-Tempo de execucao: 13.6746 segundos
+Tempo de execucao: 5.4015 segundos
 ----------------------------------------
-Multiplicacao de matrizes com MPI (coordenador/trabalhador)
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+D&C BALANCEADO
+Multiplicacao de matrizes com MPI (D&C balanceado)
 Dimensao: 2048 x 2048
-Processos: 33
+Processos: 1
+Folhas da arvore: 1
 
 ----------------------------------------
-Tempo de execucao: 5.8397 segundos
+Tempo de execucao: 12.0876 segundos
 ----------------------------------------
-
-### Tabela Resumo
-
-
-
----
-
-### Speed-Up - Escalonamento Fraco
-
-#### Sequencial
-
-
-
-#### Paralelo
-
-Multiplicacao de matrizes com MPI (coordenador/trabalhador)
+Multiplicacao de matrizes com MPI (D&C balanceado)
 Dimensao: 2048 x 2048
-Processos: 2
-
-----------------------------------------
-Tempo de execucao: 101.6668 segundos
-----------------------------------------
-Multiplicacao de matrizes com MPI (coordenador/trabalhador)
-Dimensao: 2580 x 2580
 Processos: 3
+Folhas da arvore: 2
 
 ----------------------------------------
-Tempo de execucao: 117.4567 segundos
+Tempo de execucao: 8.6252 segundos
 ----------------------------------------
-Multiplicacao de matrizes com MPI (coordenador/trabalhador)
-Dimensao: 3250 x 3250
-Processos: 5
+Multiplicacao de matrizes com MPI (D&C balanceado)
+Dimensao: 2048 x 2048
+Processos: 7
+Folhas da arvore: 4
 
 ----------------------------------------
-Tempo de execucao: 138.1672 segundos
+Tempo de execucao: 5.6276 segundos
 ----------------------------------------
-Multiplicacao de matrizes com MPI (coordenador/trabalhador)
-Dimensao: 4096 x 4096
-Processos: 9
+Multiplicacao de matrizes com MPI (D&C balanceado)
+Dimensao: 2048 x 2048
+Processos: 15
+Folhas da arvore: 8
 
 ----------------------------------------
-Tempo de execucao: 162.3387 segundos
+Tempo de execucao: 5.2871 segundos
 ----------------------------------------
-Multiplicacao de matrizes com MPI (coordenador/trabalhador)
-Dimensao: 5160 x 5160
-Processos: 17
-
-----------------------------------------
-Tempo de execucao: 180.6819 segundos
-----------------------------------------
-Multiplicacao de matrizes com MPI (coordenador/trabalhador)
-Dimensao: 6502 x 6502
-Processos: 33
+Multiplicacao de matrizes com MPI (D&C balanceado)
+Dimensao: 2048 x 2048
+Processos: 31
+Folhas da arvore: 16
 
 ----------------------------------------
-Tempo de execucao: 180.8617 segundos
+Tempo de execucao: 3.7197 segundos
 ----------------------------------------
 
-### Tabela Resumo
-
-
-
----
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
